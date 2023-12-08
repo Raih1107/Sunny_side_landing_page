@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow',sans-serif;
+}
+
+/* Apply background image to the container */
+.img_1 {
+    background-image: url('images/desktop/image-header.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat;
+    height: 100vh; /* Adjust as needed */
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5em 1.5em;
+    color: #fff;
+}
+
+.left{
+    font-size: 1.7rem;
+    font-weight: 900;
+    width: 50%;
+    /* font-family: Barlow; */
+    
+}
+
+
+.right{
+    /* font-family: Fraunces; */
+    width: 50%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.Contact{
+    /* vertical-align: middle; */
+    color: #000;
+    /* border: #000 solid 2px; */
+    text-align: center;
+    padding:1em;
+    background-color: #fff;
+    border-radius: 3em;
+    font-weight: 600;
+    font-family: serif;
+} 
+
+.heading1{
+    font-family: 'Fraunces', serif;
+
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+
+/* Add any necessary styling for your content */
+.content {
+    height: 1000px; /* Set a height for demonstration purposes */
+    position: relative;
+}
+
+/* Style for the SVG icon container */
+.svg-container {
+    position: fixed;
+    bottom: 20px;
+    right: 750px;
+    cursor: pointer;
+}
+
+
+
+.section_2{
+    /* border: 2px solid black; */
+    display: flex;
+    height: 70vh;
+}
+
+.content2{
+    width: 50%;
+    padding: 8em;
+}
+
+.heading2{
+    font-family: serif;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin-bottom: 0.7em;
+}
+
+.para{
+    color: gray;
+    line-height: 1.5;
+    margin-bottom: 1em;
+
+}
+
+.learn_more{
+    font-family: serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: underline yellow 5px;
+    cursor: pointer;
+
+}
+
+
+.img_2 {
+    /* margin-left: 50%; */
+    width: 50%;
+    background-image: url('images/desktop/image-transform.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat;
+    height: 70vh; /* Adjust as needed */
+}
+
+.img_3 {
+    /* margin-left: 50%; */
+    width: 50%;
+    background-image: url('images/desktop/image-stand-out.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    background-repeat: no-repeat;
+    height: 70vh; /* Adjust as needed */
+}
+
+.learn_more2{
+    font-family: serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: underline pink 5px;
+    cursor: pointer;
+
+}
+
+.section_4{
+    display: flex;
+    height: 70vh;
+}
+
+.img_4 {
+    /* margin-left: 50%; */
+    width: 50%;
+    background-image: url('images/desktop/image-graphic-design.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: top; /* Adjust as needed */
+    background-repeat: no-repeat;
+    height: 70vh; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content4{
+    margin-top:45%;
+    /* border: #000 2px solid; */
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    color:  hsl(167, 40%, 24%);
+}
+
+.heading4{
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    font-weight: 900 ;
+    margin-bottom: 1em;
+}
+
+.para4{
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.img_5 {
+    /* margin-left: 50%; */
+    width: 50%;
+    background-image: url('images/desktop/image-photography.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: top; /* Adjust as needed */
+    background-repeat: no-repeat;
+    height: 70vh; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content5{
+    margin-top:45%;
+    /* border: #000 2px solid; */
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    color:   hsl(198, 62%, 26%);
+}
+
+
+.section_5{
+    margin-top: 8em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+h1{
+    color: gray;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    font-weight: 900 ;
+    margin-bottom: 4em;
+}
+
+.reviews_container{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px ;
+    margin: auto;
+    gap: 1;
+}
+
+img{
+    border-radius: 50%;
+    height: 5em;
+    margin-bottom: 2em;
+}
+
+.para6{
+    color: rgb(51, 50, 50);
+    margin-bottom: 5em;
+    line-height: 1.5;
+}
+.name{
+    margin-top: 2em ;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+    font-family: 'Fraunces', serif;
+
+}
+
+.client{
+margin: 0 1em;
+cursor: pointer;
+
+}
+
+.profile{
+color: gray;
+}
+
+.section_6{
+margin-top: 4em;
+display: flex;
+}
+
+.img_7{
+background-image: url('images/desktop/image-gallery-milkbottles.jpg');
+    background-size: cover; /* Adjust as needed */
+    background-position: top; /* Adjust as needed */
+    background-repeat: no-repeat;
+    height: 70vh; 
+width: 25%;
+
+}
+
+.img_8{
+background-image: url('images/desktop/image-gallery-orange.jpg');
+   background-size: cover; /* Adjust as needed */
+    background-position: top; /* Adjust as needed */
+    background-repeat: no-repeat;
+    height: 70vh; 
+width: 25%;
+}
+
+.img_9{
+background-image: url('images/desktop/image-gallery-cone.jpg');
+   background-size: cover; /* Adjust as needed */
+    background-position: top; /* Adjust as needed */
+    background-repeat: no-repeat;
+    height: 70vh; 
+width: 25%;
+}
+
+.img_10{
+background-image: url('images/desktop/image-gallery-sugarcubes.jpg');
+   background-size: cover; /* Adjust as needed */
+    background-position: top; /* Adjust as needed */
+    background-repeat: no-repeat;
+    height: 70vh; 
+width: 25%;
+}
+
+
+.footer{
+background-color: rgb(119, 190, 167);
+height: 50vh;
+padding: 4em 30em;
+text-align: center;
+}
+
+.heading9{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: hsl(168, 38%, 37%);
+}
+
+.middle{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 2em;
+    color: hsl(168, 71%, 19%);
+    font-weight: 500;
+    margin-bottom: 4em;
+    cursor: pointer;
+
+}
+
+.social_media{
+    /* margin-top: 4em; */
+    display: flex;
+    justify-content: space-between;
+    color: hsl(167, 40%, 24%);
+    max-width: 200px;
+    margin: auto;
+    font-size: 2rem;
+    cursor: pointer;
+}
