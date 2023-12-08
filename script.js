@@ -26,3 +26,11 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+
+
+// Add this JavaScript code to toggle the menu
+document.getElementById('ham-menu').addEventListener('click', function() {
+    var menu = document.querySelector('.menu');
+    menu.style.display = (menu.style.display === 'flex' ? 'none' : 'flex');
+});
